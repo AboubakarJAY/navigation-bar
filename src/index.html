@@ -3,18 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
     <title>Document</title>
   </head>
-  <body>
-    <nav>
-      <ul>
-        <li>Branding</li>
-        <li>User Interface</li>
-        <li>User Experience</li>
-        <li>Design Systems</li>
-        <li>Interaction Design</li>
-        <li>Vsiual Design</li>
+  <body class="flex justify-center items-center h-screen bg-black">
+    <div
+      id="followMouse"
+      class="w-10 h-10 rounded-full bg-amber-500 absolute hidden"
+    ></div>
+    <nav class="grid grid-cols-[10px_auto] items-center gap-x-2 w-80">
+      <div class="h-full w-1 bg-white/20"></div>
+      <ul class="text-sm text-white/45 font-semibold">
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          Branding
+        </li>
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          User Interface
+        </li>
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          User Experience
+        </li>
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          Design Systems
+        </li>
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          Interaction Design
+        </li>
+        <li
+          class="my-4 hover:text-white/70 hover:translate-x-2 transition-all cursor-pointer"
+        >
+          Vsiual Design
+        </li>
       </ul>
     </nav>
+
+    <script src="app.js"></script>
   </body>
 </html>
